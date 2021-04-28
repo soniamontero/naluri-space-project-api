@@ -26,6 +26,7 @@ const startCalculatePi = async () => {
     t = t * u;
     i = i + 1n;
 
+    if (pi.length === 1) pi += ".";
     pi += y.toString();
 
     return setTimeout(() => {
